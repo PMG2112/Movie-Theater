@@ -1,0 +1,15 @@
+.video {
+    height: 370px;
+    width: 340px;
+    background-image: url('//videoplayers.club/web/img/loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 767px) {
+    .video {
+        width: 610px;
+    }
+}
+
